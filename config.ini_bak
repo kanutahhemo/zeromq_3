@@ -1,0 +1,13 @@
+[default]
+ordersTimeout=120
+symbolSuffix=m
+
+[database]
+dbHost=127.0.0.1
+dbPort=5432
+dbUser=zeromq3_rw
+dbPass=123
+dbName=zeromq3
+
+[symbols]
+symbolsList=AUDCADm, AUDCHFm, AUDJPYm, AUDNZDm, AUDUSDm, CADJPYm, CHFJPYm, EURAUDm, EURCADm, EURCHFm, EURGBPm, EURJPYm, EURNZDm, EURUSDm, GBPAUDm, GBPCADm, GBPCHFm, GBPJPYm, GBPNZDm, GBPUSDm, NZDJPYm, NZDUSDm, USDCADm, USDCHFm, USDJPYm

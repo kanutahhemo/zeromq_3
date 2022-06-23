@@ -1,0 +1,6 @@
+select sum(loss)/3+(select loss from loss_balance) as available_balance from orders where is_active is false;
+select loss as loss_balance from loss_balance;
+select count(*) as oldest_orders from orders where gid=(select min(gid) from orders where is_active is true) and is_active is true;
+select sum(loss) as profit from orders where is_active is false;
+select sum(loss) as current_loss from orders where is_active is true;
+select count(*) as count_orders from orders where is_active is true;
